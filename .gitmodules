@@ -55,3 +55,6 @@
 [submodule "/Users/tom-erik/.vim/bundle/ruby"]
 	path = /Users/tom-erik/.vim/bundle/ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/cucumber"]
+	path = bundle/cucumber
+	url = https://github.com/tpope/vim-cucumber.git
