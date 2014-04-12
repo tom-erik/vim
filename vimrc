@@ -10,7 +10,6 @@ set autoread
 "" Whitespace
 ""
 
-set nowrap                        " don't wrap lines
 set tabstop=2                     " a tab is two spaces
 set shiftwidth=2                  " an autoindent (with <<) is two spaces
 set expandtab                     " use spaces, not tabs
@@ -261,4 +260,6 @@ nmap <space><space> V
 nnoremap <CR> G
 nnoremap <BS> gg
 
-nmap <leader>er :e ~/Dropbox/notes/referat.md<cr>
+if filereadable(expand("~/.vim/mappings.vim"))
+    source ~/.vim/mappings.vim
+endif
