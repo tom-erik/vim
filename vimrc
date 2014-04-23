@@ -28,8 +28,8 @@ set smartcase   " ... unless they contain at least one capital letter
 "" Wild settings
 ""
 
-" TODO: Investigate the precise meaning of these settings
-" set wildmode=list:longest,list:full
+set wildmode=longest,list,full
+set wildmenu
 
 " Disable output and VCS files
 set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
@@ -255,10 +255,6 @@ vmap <Leader>P "+P
 
 " select line
 nmap <space><space> V
-
-" go to beginning and end of file with enter and backspace
-nnoremap <CR> G
-nnoremap <BS> gg
 
 if filereadable(expand("~/.vim/mappings.vim"))
     source ~/.vim/mappings.vim
