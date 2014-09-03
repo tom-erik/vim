@@ -67,3 +67,6 @@
 [submodule "bundle/dash"]
 	path = bundle/dash
 	url = https://github.com/rizzatti/dash.vim.git
+[submodule "bundle/dbext"]
+	path = bundle/dbext
+	url = https://github.com/krisajenkins/dbext.vim.git
