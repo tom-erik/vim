@@ -256,6 +256,11 @@ vmap <Leader>P "+P
 " select line
 nmap <space><space> V
 
+" dash
+let g:dash_map = {
+        \ 'cs' : 'net'
+        \ }
+
 if filereadable(expand("~/.vim/mappings.vim"))
     source ~/.vim/mappings.vim
 endif
