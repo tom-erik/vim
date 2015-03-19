@@ -79,3 +79,12 @@
 [submodule "bundle/dispatch"]
 	path = bundle/dispatch
 	url = git://github.com/tpope/vim-dispatch.git
+[submodule "bundle/omnisharp"]
+	path = bundle/omnisharp
+	url = https://github.com/nosami/Omnisharp.git
+[submodule "bundle/vim-marked"]
+	path = bundle/vim-marked
+	url = https://github.com/itspriddle/vim-marked.git
+[submodule "bundle/ps1"]
+	path = bundle/ps1
+	url = https://github.com/PProvost/vim-ps1.git
