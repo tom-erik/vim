@@ -1,4 +1,5 @@
 nmap <leader>er :e ~/Dropbox/notes/referat.md<cr>
+noremap <leader>ev :e ~/.vimrc<cr>
 noremap <leader>sv :source ~/.vimrc<cr>
 inoremap jk <esc>
 
