@@ -106,7 +106,7 @@ augroup vimrcEx
   " Automatically wrap at 72 characters and spell check git commit messages
   autocmd FileType gitcommit setlocal textwidth=72
   autocmd FileType gitcommit setlocal spell
-  autocmd FileType gitcommit setlocal spelllang=nb
+  autocmd FileType gitcommit setlocal spelllang=en
 
   " Allow stylesheets to autocomplete hyphenated words
   autocmd FileType css,scss,sass setlocal iskeyword+=-
